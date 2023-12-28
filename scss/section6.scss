@@ -1,0 +1,181 @@
+.section6 {
+    height: 750px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    background: #6696E2;
+    scroll-margin-top: 72px;
+  }
+  
+  .section6 p {
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .section-container-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .section-top {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-top h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    gap: 10px;
+
+  }
+  
+  .section-top img {
+    width: 80px;
+    margin-left: 50px;
+  }
+  
+  .section-top p {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .section-6-virsus {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .article {
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 10px;
+    position: relative;
+    width: 350px;
+    height: 460px;
+    
+  }
+  
+  .a-pradzia,
+  .a-vidurys {
+    font-size: 20px;
+    background: #333333;
+    height: 150px;
+    line-height: 20px;
+    
+  }
+  
+  .a-pradzia p,
+  .a-vidurys p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .a-pradzia h5,
+  .a-vidurys h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  
+  .a-pradzia h2,
+  .a-vidurys h2 {
+    margin: 0;
+    font-size: 90px;
+    line-height: 24px;
+    font-weight: normal;
+    transition: 0.2s;
+    margin-top: 20px;
+  }
+  
+  .a-pradzia h2 span,
+  .a-vidurys h2 span {
+    font-size: 30px;
+  }
+  
+  .a-vidurys {
+    background: $zydra;
+    color: $zydra;
+    height: 10px;
+  }
+  
+  .viduriukas .a-vidurys {
+    background: $zydra;
+    height: 40px;
+  }
+  
+  .viduriukas {
+    margin-bottom: 20px;
+    // margin-top: 10px;
+  }
+  
+  .a-bottom {
+    background: white;
+    height: 400px;
+  }
+ 
+  .a-pradzia h2 span,
+  .a-vidurys h2 span {
+    font-size: 40px;
+  }
+  
+  .a-bottom p {
+    font-family: 'Montserrat', sans-serif;
+    color: #86878B;
+    line-height: 24px;
+    transition: 0.2s;
+    font-size: 15px;
+  }
+ 
+  
+
+/* Prisitaikymas 320px ekranui */
+@media screen and (max-width: 320px) {
+  .section6 p {
+    padding: 5px 0; 
+  }
+
+  .section-top h4 {
+    font-size: 24px;
+  }
+
+  .section-top img {
+    width: 60px; 
+    margin-left: 20px; 
+  }
+
+  .article {
+    width: 100%; 
+    margin: 0; 
+    height: auto; 
+  }
+
+  .a-pradzia h2,
+  .a-vidurys h2 {
+    font-size: 60px; 
+    margin-top: 10px; 
+  }
+
+  .a-pradzia h2 span,
+  .a-vidurys h2 span {
+    font-size: 20px; 
+  }
+
+  .a-bottom {
+    height: auto; 
+  }
+
+  .a-bottom p {
+    font-size: 12px; 
+    line-height: 18px; 
+  }
+}

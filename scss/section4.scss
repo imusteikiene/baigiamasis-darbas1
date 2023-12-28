@@ -1,0 +1,131 @@
+
+.section-4-container{
+    background: #1c1c1c;
+    height: 550px;
+}
+.section-4-img img{
+  
+    background-size: cover;
+    height: 400px;
+    width: 350px;
+    margin-left: 200px;
+
+}
+.top{
+    margin-left: 150px;
+    margin-top: 50px;
+    color: white;
+}
+.section-4-container {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .section-4-img {
+    flex: 1;
+  }
+  
+  .section-4-right {
+    flex: 2; 
+    
+  }
+  
+  .top h4{
+    text-align: start;
+    font-size: 30px;
+    margin-right: 300px;
+    font-family: 'Montserrat', sans-serif;
+
+  }
+  .top img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+    
+  }
+  .top p{
+   text-align: start;
+    width: 600px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+   font-size: 15px;
+   font-family: 'Montserrat', sans-serif;
+   opacity: 0.9;
+  
+  }
+
+//   iconos
+
+.bottom article {
+    margin-left: 145px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+  }
+  
+  .bottom article .fa-stack {
+    margin-right: 10px; 
+  }
+  
+  .title-n-text {
+    flex: 1;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .title-text h5,
+  .title-text p {
+   opacity: 0.9;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 15px;
+    
+    
+  }
+  
+  /* Pritaikymas 320px ekranams ir mažiau */
+@media screen and (max-width: 320px) {
+  .section-4-container {
+    height: auto; 
+    padding: 20px; 
+  }
+
+  .section-4-img img {
+    width: 100%; 
+    height: auto; 
+    margin: 0; 
+  }
+
+  .top {
+    margin-left: 20px; 
+    margin-right: 20px; 
+  }
+
+  .top img {
+    margin-bottom: 20px; 
+  }
+
+  .top p {
+    width: 100%; 
+    margin-bottom: 20px;
+  }
+
+  .bottom article {
+    margin-left: 20px; 
+    margin-right: 20px; 
+  }
+
+  .title-n-text {
+    width: 100%; 
+  }
+
+  .bottom article .fa-stack {
+    margin-right: 5px; 
+  }
+  
+  .title-text h5,
+  .title-text p {
+    font-size: 14px; /* Mažiname šrifto dydį */
+  }
+}

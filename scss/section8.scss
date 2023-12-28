@@ -1,0 +1,100 @@
+.section-8-container {
+    background: #E27866;
+    text-align: center;
+    height: 600px;
+    padding: 60px;
+}
+
+.section-8-bottom {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+// lentele
+
+
+.section-8-bottom form {
+    width: 380px;
+    height: 315px;
+    margin: auto;
+}
+
+
+.section-8-bottom button {
+    font-size: 15px;
+}
+
+.section-8-top p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin-top: 40px;
+    color: white;
+    opacity: 0.9;
+}
+
+.section-8-top h4 {
+  font-size: 40px;
+  margin-top: 20px;
+    color: white;
+}
+// inputas ir lygiavimas 
+
+.section-8-bottom .radio-input {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+  .section-8-bottom .radio-input input {
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 5px;
+    
+}
+
+
+.section-8-bottom .radio-input label {
+    margin-top: 10px;
+    font-size: 10px;
+    position: relative;
+    padding: 10px;
+}
+  .section-8-bottom button{
+    margin-top: 20px;
+}
+
+
+/* Prisitaikymas 320px ekranui */
+@media screen and (max-width: 320px) {
+    .section-8-container {
+      height: auto; 
+      padding: 30px;
+      margin-top: 600px; 
+    }
+  
+    .section-8-bottom form {
+      max-width: 100%;
+      height: auto; 
+      margin: 0; 
+    }
+  
+    .section-8-bottom .radio-input {
+      flex-direction: column; 
+      align-items: flex-start; 
+    }
+  
+    .section-8-bottom .radio-input input {
+      margin-right: 0; 
+    }
+  
+    .radio-input label {
+      margin-top: 5px; 
+    }
+  
+    .section-8-bottom button {
+      margin-top: 10px; 
+    }
+  }
+  

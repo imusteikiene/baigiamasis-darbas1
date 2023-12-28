@@ -1,0 +1,199 @@
+.section-7 {
+    max-height: 700px;
+    padding: 50px 0;
+    scroll-margin-top: 72px;
+}
+
+.section-7-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-7-top h4 {
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 43px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.section-7-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dialogai {
+    width: 100%;
+}
+
+.dialogai-pradzia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dialogas1 {
+    flex: 0 0 calc(33.333% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.dialogas-container {
+    padding: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b-top p {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    font-size: 17px;
+    width: 300px;
+    height: 150px;
+    color: black;
+    margin: 0;
+    background: #6696E2;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::placeholder {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.dialogas-container h5,
+.dialogas-container h6 {
+    margin: 10px 0;
+    opacity: 0.9;
+   
+}
+.b-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.b-bottom img {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.b-bottom div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.b-bottom h5,
+.b-bottom h6 {
+    margin: 5px 0;
+}
+
+.b-bottom h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.b-bottom h6 {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.b-bottom div h5 {
+    display: flex;
+}
+
+.b-bottom div h6 {
+    display:flex;
+    margin-left: 10px; 
+}
+
+
+
+// dialogo trikampio pridejimas
+.b-top {
+    position: relative;
+}
+
+.b-top::after {
+    content: '';
+    position: absolute;
+    top: 100%; 
+    left: 25%;
+    transform: translateX(-50%);
+    border-width: 10px 10px 0;
+    border-style: solid;
+    border-color: #6696E2 transparent transparent; 
+}
+
+// taskeliai apacioje
+
+.fixed-bullet-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fixed-bullet {
+    width: 10px; 
+    height: 10px; 
+    border: 2px solid #E27866; 
+    border-radius: 50%; 
+    margin: 0 5px;
+    background-color: transparent;
+  }
+
+.fixed-bullet:hover {
+    background-color:#E27866; 
+    border-color: #E27866; 
+  }
+
+/* Prisitaikymas 320px ekranui */
+
+@media screen and (max-width: 320px) {
+    .section-7-bottom {
+      flex-direction: column; /* Stulpelinis išdėstymas sekcijos apačioje */
+    }
+  
+    .dialogas1 {
+      flex: 0 0 calc(100% - 20px); 
+      margin-bottom: 20px; 
+    }
+  
+    .dialogas-container {
+      padding: 20px; 
+      margin-top: 10px; 
+    }
+  
+    .b-top p {
+      width: 100%; 
+      height: auto; 
+      padding: 20px; 
+    }
+  
+    .b-bottom {
+      flex-direction: column; /* Stulpelinis išdėstymas apačioje */
+      margin-top: 20px; 
+    }
+  
+    .fixed-bullet-container {
+      margin-top: 20px; 
+    }
+  }
+  

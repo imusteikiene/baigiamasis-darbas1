@@ -1,0 +1,123 @@
+.section-2-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top:5px ;
+  background: $mano-balta;
+}
+
+.social-media {
+  flex: 1;
+  text-align: left; 
+}
+
+.social-icons {
+  margin-right: 200px;
+  gap: 80px;
+  font-size: 35px;
+  margin-top: 5px;
+  display: flex;
+  opacity: 0.7;
+  
+}
+
+.social-icons i {
+  margin-left: 50px;
+  margin: auto;
+  
+}
+
+.social-media p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  opacity: 0.5;
+  margin-left: 50px;
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
+
+.social-media h5 {
+  font-family: 'Montserrat', sans-serif;
+  opacity: 0.9;
+  color: rgb(17, 14, 14);
+  margin-left: 50px;
+  margin-top: 15px;
+  font-size: 20px;
+  
+}
+
+.social-media h5,
+.social-media p {
+  display: block;
+}
+
+
+  //  medijos prisitaikymas
+
+
+  
+  @media screen and (max-width: 768px) {
+    .section-2-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-icons {
+      margin-right: 0;
+    }
+  
+    .social-media p {
+      margin-left: 0;
+    }
+  
+    .social-media h5 {
+      margin-left: 0;
+    }
+  
+  
+    .section-2-container {
+      justify-content: flex-start;
+      padding-bottom: 20px; /* atstumas iki apačios */
+    }
+  
+    .social-media {
+      margin-bottom: 100px;
+      margin-top: 100px; 
+      text-align: center;
+      background: rgba(255, 255, 255, 0.8); 
+      padding: 20px; 
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .section-2-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-icons {
+      margin-right: 0;
+      flex-direction: row; /* Pakeistas social ikonų išdėstymas */
+    }
+  
+    .social-icons i {
+      margin: 0;
+    }
+  
+    .social-media p,
+    .social-media h5 {
+      margin-left: 0;
+    }
+  
+    .section-2-container {
+      justify-content: flex-start;
+      padding-bottom: 20px; /* atstumas iki apačios */
+    }
+  
+    .social-media {
+      margin-bottom: 20px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+    }
+  }

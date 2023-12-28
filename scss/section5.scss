@@ -1,0 +1,145 @@
+
+.section-5-container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+  
+  .section-5-container .section-bottom {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .section-5-container h4{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  .section-5-container p{
+    margin-top: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.5;
+  }
+  .section-5-container img{
+
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 2px;
+    width: 70px;
+    opacity: 100%;
+    
+
+  }
+  .section-5-container h5{
+    font-size: 30px;
+  }
+  
+  .iconos {
+  
+    gap: 10px;
+    text-align: center;
+    margin: 80px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .iconos h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 20;
+    font-size: 17px;
+    opacity: 0.7;
+    
+  }
+  
+  .iconos h5,
+  .iconos p {
+    margin-right: 40px;
+    margin-top: 10px; 
+
+  }
+  .iconos p {
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.5;
+    width: 300px;
+  }
+  
+  
+  .section-bottom > div {
+    text-align: center;
+    width: 200px; 
+  }
+  
+  
+  .my-circle-icon {
+    font-size: 20px;
+   
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    
+    border: 1px solid $kita-kremine;
+    border-radius: 50%;
+    padding: 12px;
+    margin: 5px; 
+  }
+ 
+
+  /* Prisitaikymas 320px ekranui */
+@media screen and (max-width: 320px) {
+  .section-5-container {
+    margin-top: 20px;
+  }
+
+  .section-5-container h4 {
+    font-size: 20px;
+    margin-top: 50px; 
+  }
+
+  .section-5-container p {
+    margin-top: 10px; 
+  }
+
+  .section-5-container img {
+    margin-top: 3px; 
+    margin-left: 5px; 
+    height: 1px; 
+    width: 50px; 
+  }
+
+  .section-5-container h5 {
+    font-size: 20px; 
+  }
+
+  .iconos {
+    margin: 40px;
+  }
+
+  .iconos h5 {
+    font-size: 15px; 
+  }
+
+  .iconos h5,
+  .iconos p {
+    margin-right: 20px; 
+    margin-top: 5px; 
+  }
+
+  .iconos p {
+    width: 200px; 
+  }
+
+  .section-bottom > div {
+    width: 150px;
+  }
+
+  .my-circle-icon {
+    font-size: 15px; 
+    width: 40px; 
+    height: 40px; 
+    padding: 10px; 
+    margin: 3px; 
+  }
+}
